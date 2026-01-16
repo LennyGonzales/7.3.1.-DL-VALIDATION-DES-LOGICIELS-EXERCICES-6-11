@@ -133,5 +133,5 @@ J'ai ajouté 2 tests :
 [INFO] ------------------------------------------------------------------------
 ```
 
-Maintenant, nous pouvons voir que la fonction a un coverage de 62% :
+Maintenant, nous pouvons voir que la fonction a un coverage de 100% :
 ![Person.setHairColor](./docs/images/jacoco-coverage-sethaircolor-2.png)
