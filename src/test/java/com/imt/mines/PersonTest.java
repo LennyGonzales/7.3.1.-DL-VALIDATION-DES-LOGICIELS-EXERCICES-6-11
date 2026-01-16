@@ -13,9 +13,28 @@ class PersonTest {
     }
 
     @Test
-    void setHaircolor_happyPath_haircolorChanges() {
+    void setHaircolor_happyPath_haircolorChanges_blond() {
         person.setHairColor("blond");
         assertEquals("blond", person.getHairColor());
+    }
+
+    @Test
+    void setHaircolor_happyPath_haircolorChanges_brown() throws Exception {
+        Person personBlondHair = new Person("Lenny", 'M', 22, 52.0f, 1.72f, "blond", "black", "lenny@gmail.com");
+        personBlondHair.setHairColor("brown");
+        assertEquals("brown", personBlondHair.getHairColor());
+    }
+
+    @Test
+    void setHaircolor_happyPath_haircolorChanges_black() {
+        person.setHairColor("black");
+        assertEquals("black", person.getHairColor());
+    }
+
+    @Test
+    void setHaircolor_happyPath_haircolorChanges_white() {
+        person.setHairColor("white");
+        assertEquals("white", person.getHairColor());
     }
 
     @Test

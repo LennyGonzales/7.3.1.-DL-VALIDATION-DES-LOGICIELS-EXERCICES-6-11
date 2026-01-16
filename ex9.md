@@ -113,13 +113,13 @@ J'ai ajouté 2 tests :
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.imt.mines.PersonTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in com.imt.mines.PersonTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in com.imt.mines.PersonTest
 [INFO] Running com.imt.mines.BankAccountTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.imt.mines.BankAccountTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.imt.mines.BankAccountTest
 [INFO] 
 [INFO] Results:
 [INFO] 
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] 
 [INFO] --- jacoco:0.8.11:report (report) @ BankApplicationMvn ---
@@ -128,8 +128,8 @@ J'ai ajouté 2 tests :
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.803 s
-[INFO] Finished at: 2026-01-16T09:45:59+01:00
+[INFO] Total time:  1.475 s
+[INFO] Finished at: 2026-01-16T09:59:27+01:00
 [INFO] ------------------------------------------------------------------------
 ```
 
