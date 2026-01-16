@@ -48,7 +48,7 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/s
 ```
 
 ## mvn test
-La commande `mvn test` exécute les phases **clean**, **validate**, **compile** et **test**.
+La commande `mvn test` exécute les phases **validate**, **compile**, **test-compile** et **test**.
 La phase de test permet de tester le code source compilé à l'aide d'un framework de test. Dans notre cas, c'est **jUnit**.
 Elle créer le répertoire **target/** contenant **classes, generated-sources, generated-test-sources,maven-status, test-classes** (classes et tests compilés).
 ```bash
@@ -94,7 +94,7 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/s
 ```
 
 ## mvn package
-La commande `mvn package` exécute les phases **clean**, **validate**, **compile**, **test** et **package**.
+La commande `mvn package` exécute les phases **validate**, **compile**, **test** et **package**..
 La phase de package nous a généré le répertoire target/maven-archiver et le fichier jar de notre application dans le répertoire target.
 ```bash
 ... BankApplicationMvn % mvn package
@@ -141,7 +141,7 @@ Downloading from central: https://repo.maven.apache.org/maven2/org/apache/common
 [INFO] ------------------------------------------------------------------------
 ```
 
-## mvn verify
+## mvn verify.  
 La commande `mvn verify` exécute les phases **validate**, **compile**, **test**, **package** et **verify** (sans `clean`).  
 La phase `verify` permet de faire des contrôles sur les résultats des **tests d'intégration** afin de garantir le respect des critères de qualité, contrairement à `test` qui ne fait que les **unit tests**, et à `package` qui **s'arrête au packaging sans tests d'intégration**.
 ```bash
